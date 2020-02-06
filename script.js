@@ -103,6 +103,104 @@ $(function() {
       url: "Musics/NhungConDuongSongSong.mp3",
       picture:
         "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Lou Hoàng",
+      name: "Cảm Giác Lúc Ấy Sẽ Ra Sao",
+      url: "Musics/1CamGiacLucAySeRaSao.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Alex Shun & Nguyễn Trọng Đức",
+      name: "Ta Có Nên Yêu Nhau",
+      url: "Musics/2TaCoNenYeuNhau.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Đăng Quân Pino",
+      name: "Sau Chia Tay",
+      url: "Musics/3SauChiaTay.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Trang",
+      name: "Tỉnh Giấc Khi Ông Trời Đang Ngủ ",
+      url: "Musics/5TinhGiacKhiOngTroiDangNgu.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Trang",
+      name: "1000 Km",
+      url: "Musics/41000Km.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Châu Dương",
+      name: "Yêu",
+      url: "Musics/6Yeu.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Trang & Phùng Khánh Linh",
+      name: "Mẹ Ơi Cho Con Về Nhà",
+      url: "Musics/7MeOiChoConVeNha.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Chillies",
+      name: "Có Em Đời Bỗng Vui",
+      url: "Musics/8CoEmDoiBongVui.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Suni Hạ Linh ft LyLy",
+      name: "Không Sao Mà Em Đây Rồi",
+      url: "Musics/9KhongSaoMaEmDayRoi.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "LyLy",
+      name: "Không Yêu Đừng Gây Thương Nhớ",
+      url: "Musics/10KhongYeuDungGayThuongNho.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Lou Hoàng",
+      name: "Là Bạn Không Thể Yêu",
+      url: "Musics/11LaBanKhongTheYeu.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "TÙNG ft Trang",
+      name: "Con Dế Mèn Hát Vào Mùa Hè",
+      url: "Musics/12ConDeMenHatVaoMuaHe.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "Ali Hoàng Dương",
+      name: "Mơ Một Ngày Không Xa",
+      url: "Musics/13MoMotNgayKhongXa.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+      artist: "JSOL ft Viruss",
+      name: "Giá Như Em Nhìn Lại",
+      url: "Musics/14GiaNhuEmNhinLai.mp3",
+      picture:
+        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
     }
   ];
 

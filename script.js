@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
   var playerTrack = $("#player-track");
   var bgArtwork = $("#bg-artwork");
   var bgArtworkUrl;
@@ -36,172 +36,201 @@ $(function() {
 
   var songs = [
     {
-      artist: "Phương",
-      name: "Là Em",
-      url: "Musics/LaEm-Phuong.mp3",
-      picture: "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg"
-    },
-    {
-      artist: "Thịnh Suy",
-      name: "Nghe Em",
-      url: "Musics/NgheEm.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Chillies",
-      name: "Mascara",
-      url: "Musics/Mascara-Chillies.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Nâu & Dương",
-      name: "3 1 0 5",
-      url: "Musics/3105-NauDuong.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Chillies",
-      name: "Cảm Ơn Và Xin Lỗi",
-      url: "Musics/CamOnVaXinLoi.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Tùa & CM1X",
-      name: "Điều Chưa Nói",
-      url: "Musics/DieuChuaNoi.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Thịnh Suy",
-      name: "Làm Ơn",
-      url: "Musics/LamOn-ThinhSuy.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Tùa & CM1X",
-      name: "Mình Chẳng Thể Cùng Nhau",
-      url: "Musics/MinhChangTheCungNhau.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Tùa & CM1X",
-      name: "Ngày Hôm Nay Của Anh Thế Nào",
-      url: "Musics/NgayHomNayCuaAnhTheNao.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Chilles",
-      name: "Con Đường Song Song",
-      url: "Musics/NhungConDuongSongSong.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
       artist: "Lou Hoàng",
-      name: "Cảm Giác Lúc Ấy Sẽ Ra Sao",
+      name: "Cảm giác lúc ấy sẽ ra sao",
       url: "Musics/1CamGiacLucAySeRaSao.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Alex Shun & Nguyễn Trọng Đức",
-      name: "Ta Có Nên Yêu Nhau",
-      url: "Musics/2TaCoNenYeuNhau.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Đăng Quân Pino",
-      name: "Sau Chia Tay",
-      url: "Musics/3SauChiaTay.mp3",
+      name: "Sau chia tay",
+      url: "Musics/2SauChiaTay.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Trang",
-      name: "Tỉnh Giấc Khi Ông Trời Đang Ngủ ",
-      url: "Musics/5TinhGiacKhiOngTroiDangNgu.mp3",
+      name: "Tỉnh giấc khi ông trời còn đang ngủ",
+      url: "Musics/3TinhGiacKhiOngTroiDangNgu.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Trang",
-      name: "1000 Km",
-      url: "Musics/41000Km.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Châu Dương",
       name: "Yêu",
-      url: "Musics/6Yeu.mp3",
+      url: "Musics/4Yeu.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Trang & Phùng Khánh Linh",
-      name: "Mẹ Ơi Cho Con Về Nhà",
-      url: "Musics/7MeOiChoConVeNha.mp3",
+      name: "Mẹ ơi cho con về nhà",
+      url: "Musics/5MeOiChoConVeNha.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Chillies",
-      name: "Có Em Đời Bỗng Vui",
-      url: "Musics/8CoEmDoiBongVui.mp3",
+      artist: "Suni Hạ Linh",
+      name: "Không sao mà em đây rồi",
+      url: "Musics/6KhongSaoMaEmDayRoi.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "Suni Hạ Linh ft LyLy",
-      name: "Không Sao Mà Em Đây Rồi",
-      url: "Musics/9KhongSaoMaEmDayRoi.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    },
-    {
-      artist: "LyLy",
-      name: "Không Yêu Đừng Gây Thương Nhớ",
-      url: "Musics/10KhongYeuDungGayThuongNho.mp3",
-      picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Lou Hoàng",
-      name: "Là Bạn Không Thể Yêu",
-      url: "Musics/11LaBanKhongTheYeu.mp3",
+      name: "Là bạn không thể yêu",
+      url: "Musics/7LaBanKhongTheYeu.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "TÙNG ft Trang",
-      name: "Con Dế Mèn Hát Vào Mùa Hè",
-      url: "Musics/12ConDeMenHatVaoMuaHe.mp3",
+      artist: "Tùng",
+      name: "Con dế mèn hát vào mùa hạ",
+      url: "Musics/8ConDeMenHatVaoMuaHe.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Ali Hoàng Dương",
-      name: "Mơ Một Ngày Không Xa",
-      url: "Musics/13MoMotNgayKhongXa.mp3",
+      artist: "Jsol",
+      name: "Giá như em nhìn lại",
+      url: "Musics/9GiaNhuEmNhinLai.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "JSOL ft Viruss",
-      name: "Giá Như Em Nhìn Lại",
-      url: "Musics/14GiaNhuEmNhinLai.mp3",
+      artist: "Nâu & Dương",
+      name: "3 1 0 7",
+      url: "Musics/103105-NauDuong.mp3",
       picture:
-        "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-    }
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Trang",
+      name: "1000 Km",
+      url: "Musics/111000Km.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "1nG & VoVanDuc",
+      name: "Ai đưa em về",
+      url: "Musics/12AiDuaEmVe.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Xơn & Rica",
+      name: "Anh sẽ không đi đâu hết cả",
+      url: "Musics/13AnhSeKhongDiDauHetCa.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Kim Tuyên",
+      name: "Bản tình ca đơn phương",
+      url: "Musics/14BanTinhCaDonPhuong.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Bon",
+      name: "Bản tình ca không tựa",
+      url: "Musics/15BanTinhCaKhongTua.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Cam & Quỳnh",
+      name: "Chết đi cho rồi",
+      url: "Musics/16ChetDiChoRoi.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Decade",
+      name: "Chiếu thủy",
+      url: "Musics/17ChieuThuy.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Suni Hạ Linh",
+      name: "Em Đã Biết",
+      url: "Musics/18EmDaBiet.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "3T & KayTee",
+      name: "Hẹn yêu",
+      url: "Musics/19HenYeu.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Khải & Xén",
+      name: "Kẻ cô đơn trong thành phố này",
+      url: "Musics/20KeCoDonTrongThanhPhoNay.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Thịnh Suy",
+      name: "Làm ơn",
+      url: "Musics/21LamOn-ThinhSuy.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Giang & QNT",
+      name: "Nếu một ngày không xa",
+      url: "Musics/22NeuMotNgayKhongXa.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Hoàng Dũng",
+      name: "Ngu Nghếch",
+      url: "Musics/23NguNghech.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Bozitt",
+      name: "Những gì anh nói",
+      url: "Musics/24NhungGiAnhNoi.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Củ Cải",
+      name: "Sợ em đếch care",
+      url: "Musics/25SoEmDechCare.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Yanbi",
+      name: "Viết tên em",
+      url: "Musics/26VietTenEm.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Clow & Linh Thộn",
+      name: "Yêu lại chút thôi",
+      url: "Musics/27YeuLaiChutThoi.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Lil Zpoet",
+      name: "Yêu từ đâu mà ra",
+      url: "Musics/28YeuTuDauMaRa.mp3",
+      picture:
+        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
   ];
 
   function shuffle(a) {
@@ -217,7 +246,7 @@ $(function() {
   songs = shuffle(songs);
 
   function playPause() {
-    setTimeout(function() {
+    setTimeout(function () {
       if (audio.paused) {
         playerTrack.addClass("active");
         albumArt.addClass("active");
@@ -262,10 +291,7 @@ $(function() {
 
   function hideHover() {
     sHover.width(0);
-    insTime
-      .text("00:00")
-      .css({ left: "0px", "margin-left": "0px" })
-      .fadeOut(0);
+    insTime.text("00:00").css({ left: "0px", "margin-left": "0px" }).fadeOut(0);
   }
 
   function playFromClickedPos() {
@@ -326,7 +352,7 @@ $(function() {
 
   function checkBuffering() {
     clearInterval(buffInterval);
-    buffInterval = setInterval(function() {
+    buffInterval = setInterval(function () {
       if (nTime == 0 || bTime - nTime > 1000) albumArt.addClass("buffering");
       else albumArt.removeClass("buffering");
 
@@ -388,7 +414,7 @@ $(function() {
 
     playPauseButton.on("click", playPause);
 
-    sArea.mousemove(function(event) {
+    sArea.mousemove(function (event) {
       showHover(event);
     });
 
@@ -398,10 +424,10 @@ $(function() {
 
     $(audio).on("timeupdate", updateCurrTime);
 
-    playPreviousTrackButton.on("click", function() {
+    playPreviousTrackButton.on("click", function () {
       selectTrack(-1);
     });
-    playNextTrackButton.on("click", function() {
+    playNextTrackButton.on("click", function () {
       selectTrack(1);
     });
   }

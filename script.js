@@ -36,200 +36,123 @@ $(function () {
 
   var songs = [
     {
-      artist: "Lou Hoàng",
-      name: "Cảm giác lúc ấy sẽ ra sao",
-      url: "Musics/1CamGiacLucAySeRaSao.mp3",
+      artist: "Linh Cáo",
+      name: "Những Ngày Đi Lạc",
+      url: "Musics/1_NhungNgayDiLac.mp3",
       picture:
         "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Đăng Quân Pino",
-      name: "Sau chia tay",
-      url: "Musics/2SauChiaTay.mp3",
+      artist: "Lê Cát Trọng Lý",
+      name: "Con đường Santiago",
+      url: "Musics/2_ConDuongSantiago.mp3",
       picture:
         "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Trang",
-      name: "Tỉnh giấc khi ông trời còn đang ngủ",
-      url: "Musics/3TinhGiacKhiOngTroiDangNgu.mp3",
+      artist: "Cheung",
+      name: "Hoàng Hôn",
+      url: "Musics/3_HoangHon.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Châu Dương",
-      name: "Yêu",
-      url: "Musics/4Yeu.mp3",
+      artist: "Bức Tường",
+      name: "Tiếng Gọi",
+      url: "Musics/4_TiengGoi.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Trang & Phùng Khánh Linh",
-      name: "Mẹ ơi cho con về nhà",
-      url: "Musics/5MeOiChoConVeNha.mp3",
+      artist: "The Cassette",
+      name: "Cá Rô",
+      url: "Musics/5_CaRo.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Suni Hạ Linh",
-      name: "Không sao mà em đây rồi",
-      url: "Musics/6KhongSaoMaEmDayRoi.mp3",
+      artist: "Ngô Lan Hương",
+      name: "Tuổi 23",
+      url: "Musics/6_Tuoi23.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Lou Hoàng",
-      name: "Là bạn không thể yêu",
-      url: "Musics/7LaBanKhongTheYeu.mp3",
+      artist: "14 Casper & Bon",
+      name: "bao tiền một mớ bình yên?",
+      url: "Musics/7_BaoTienMotMoBinhYen.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Tùng",
-      name: "Con dế mèn hát vào mùa hạ",
-      url: "Musics/8ConDeMenHatVaoMuaHe.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Jsol",
-      name: "Giá như em nhìn lại",
-      url: "Musics/9GiaNhuEmNhinLai.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Nâu & Dương",
-      name: "3 1 0 7",
-      url: "Musics/103105-NauDuong.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Trang",
-      name: "1000 Km",
-      url: "Musics/111000Km.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "1nG & VoVanDuc",
-      name: "Ai đưa em về",
-      url: "Musics/12AiDuaEmVe.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Xơn & Rica",
-      name: "Anh sẽ không đi đâu hết cả",
-      url: "Musics/13AnhSeKhongDiDauHetCa.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Kim Tuyên",
-      name: "Bản tình ca đơn phương",
-      url: "Musics/14BanTinhCaDonPhuong.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Bon",
-      name: "Bản tình ca không tựa",
-      url: "Musics/15BanTinhCaKhongTua.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Cam & Quỳnh",
-      name: "Chết đi cho rồi",
-      url: "Musics/16ChetDiChoRoi.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Decade",
-      name: "Chiếu thủy",
-      url: "Musics/17ChieuThuy.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Suni Hạ Linh",
-      name: "Em Đã Biết",
-      url: "Musics/18EmDaBiet.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "3T & KayTee",
-      name: "Hẹn yêu",
-      url: "Musics/19HenYeu.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Khải & Xén",
-      name: "Kẻ cô đơn trong thành phố này",
-      url: "Musics/20KeCoDonTrongThanhPhoNay.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Thịnh Suy",
-      name: "Làm ơn",
-      url: "Musics/21LamOn-ThinhSuy.mp3",
+      name: "Tiny Love",
+      url: "Musics/10_TinyLove.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Giang & QNT",
-      name: "Nếu một ngày không xa",
-      url: "Musics/22NeuMotNgayKhongXa.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Hoàng Dũng",
-      name: "Ngu Nghếch",
-      url: "Musics/23NguNghech.mp3",
+      name: "Gói Nắng Mang Về",
+      url: "Musics/11_GoiNangMangVe.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Bozitt",
-      name: "Những gì anh nói",
-      url: "Musics/24NhungGiAnhNoi.mp3",
+      artist: "Dalab",
+      name: "Thở",
+      url: "Musics/12_Tho.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Củ Cải",
-      name: "Sợ em đếch care",
-      url: "Musics/25SoEmDechCare.mp3",
+      artist: "Lê Cát Trọng Lý",
+      name: "Nghe Tôi Kể Này",
+      url: "Musics/13_NgheToiKeNay.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Whee!",
+      name: "Bất Bình Thường",
+      url: "Musics/14_BatBinhThuong.mp3",
+      picture:
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Linh Cáo",
+      name: "Ai Nói",
+      url: "Musics/15_AiNoi.mp3",
+      picture:
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Trangg",
+      name: "Tỉnh Giác Khi Ông Trời Còn Đang Ngủ",
+      url: "Musics/16_TinhGiacKhiOngTroiDangNgu.mp3",
+      picture:
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+    },
+    {
+      artist: "Thịnh Suy",
+      name: "Làm Ơn",
+      url: "Musics/17_LamOn-ThinhSuy.mp3",
+      picture:
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
       artist: "Yanbi",
-      name: "Viết tên em",
-      url: "Musics/26VietTenEm.mp3",
+      name: "Viết Tên Em",
+      url: "Musics/18_VietTenEm.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
     {
-      artist: "Clow & Linh Thộn",
-      name: "Yêu lại chút thôi",
-      url: "Musics/27YeuLaiChutThoi.mp3",
+      artist: "Trangg",
+      name: "1000 km",
+      url: "Musics/19_1000Km.mp3",
       picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
-    },
-    {
-      artist: "Lil Zpoet",
-      name: "Yêu từ đâu mà ra",
-      url: "Musics/28YeuTuDauMaRa.mp3",
-      picture:
-        "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
+          "https://i1.sndcdn.com/artworks-000594318516-jutk7g-t500x500.jpg",
     },
   ];
 

@@ -24,7 +24,7 @@ body {
   right: -30px;
   bottom: -30px;
   left: -30px;
-  background-image: url("./Background/271276041_2390810401071601_8774014884443388403_n.jpeg");
+  background-image: url("./Background/271277886_2390810477738260_3467273310230553988_n (1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 70%;
@@ -40,7 +40,7 @@ body {
   bottom: 0;
   left: 0;
   background-color: rgb(181, 204, 138);
-  opacity: 0.4;
+  opacity: 0.1;
   z-index: 2;
 }
 
@@ -56,7 +56,7 @@ body {
   right: 15px;
   left: 15px;
   padding: 13px 22px 10px 184px;
-  background-color: rgb(185, 219, 202);
+  background-color: #c3a994;
   border-radius: 15px 15px 0 0;
   -webkit-transition: 0.3s ease top;
   transition: 0.3s ease top;
@@ -166,7 +166,7 @@ body {
 #player-content {
   position: relative;
   height: 100%;
-  background-color: #a7c9af;
+  background-color: #c3a994;
   box-shadow: 0 20px 50px #a7c9af;
   border-radius: 15px;
   z-index: 2;
@@ -266,7 +266,7 @@ body {
   line-height: 1;
   padding: 6px;
   margin: -12px auto 0 auto;
-  background-color: rgba(255, 255, 255, 0.19);
+  background-color: #c3a994;
   opacity: 0;
   z-index: 2;
 }
@@ -283,7 +283,7 @@ body {
 
 #album-art.buffering img.active {
   opacity: 0.8;
-  filter: blur(2px);
+  filter: blur(1px);
   -webkit-filter: blur(2px);
 }
 
@@ -309,7 +309,7 @@ body {
   width: 26px;
   height: 26px;
   padding: 25px;
-  background-color: #a7c9af;
+  background-color: #c3a994;
   border-radius: 6px;
   cursor: pointer;
 }
